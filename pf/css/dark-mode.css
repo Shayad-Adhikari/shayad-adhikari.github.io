@@ -1,0 +1,190 @@
+/* Light Mode Styles (since we're now using dark as default) */
+body:not(.dark-mode) {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+  color: #1e293b;
+}
+
+body:not(.dark-mode) header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+body:not(.dark-mode) .logo {
+  color: #1e40af;
+  text-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) nav a {
+  color: #374151;
+}
+
+body:not(.dark-mode) nav a:hover {
+  color: #1e40af;
+  text-shadow: 0 0 8px rgba(30, 64, 175, 0.5);
+}
+
+body:not(.dark-mode) #hero {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
+}
+
+body:not(.dark-mode) section {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+body:not(.dark-mode) section h2 {
+  color: #1e40af;
+  text-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) section h2::after {
+  background: linear-gradient(90deg, #1e40af, #7c3aed);
+}
+
+body:not(.dark-mode) .project-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  color: #1e293b;
+}
+
+body:not(.dark-mode) .project-card h3 {
+  color: #1e40af;
+}
+
+body:not(.dark-mode) .skill-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) .skill-card:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(30, 64, 175, 0.6);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.1),
+    0 0 20px rgba(30, 64, 175, 0.2);
+}
+
+body:not(.dark-mode) .skill-card img {
+  filter: 
+    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))
+    brightness(1.1)
+    contrast(1.05);
+}
+
+body:not(.dark-mode) .skill-card:hover img {
+  filter: 
+    drop-shadow(0 6px 12px rgba(30, 64, 175, 0.3))
+    brightness(1.2)
+    contrast(1.1);
+}
+
+body:not(.dark-mode) #contact-form input,
+body:not(.dark-mode) #contact-form textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.8);
+}
+
+body:not(.dark-mode) #contact-form input:focus,
+body:not(.dark-mode) #contact-form textarea:focus {
+  border-color: #1e40af;
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+body:not(.dark-mode) #contact-form input::placeholder,
+body:not(.dark-mode) #contact-form textarea::placeholder {
+  color: #64748b;
+}
+
+body:not(.dark-mode) footer {
+  background: rgba(255, 255, 255, 0.95);
+  color: #374151;
+  border-top: 1px solid #e2e8f0;
+}
+
+body:not(.dark-mode) footer a {
+  color: #1e40af;
+}
+
+body:not(.dark-mode) footer a:hover {
+  color: #1e3a8a;
+  text-shadow: 0 0 8px rgba(30, 64, 175, 0.5);
+}
+
+/* Light mode contact section styles */
+body:not(.dark-mode) .contact-info,
+body:not(.dark-mode) .contact-form {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) .contact-info h2,
+body:not(.dark-mode) .contact-form h2 {
+  color: #1e40af;
+  text-shadow: 0 0 10px rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) .contact-info p {
+  color: #374151;
+}
+
+body:not(.dark-mode) .info-item {
+  background: rgba(30, 64, 175, 0.05);
+  border: 1px solid rgba(30, 64, 175, 0.2);
+}
+
+body:not(.dark-mode) .info-item:hover {
+  background: rgba(30, 64, 175, 0.1);
+  border-color: rgba(30, 64, 175, 0.4);
+}
+
+body:not(.dark-mode) .info-item i {
+  color: #1e40af;
+}
+
+body:not(.dark-mode) .info-item div p {
+  color: #6b7280;
+}
+
+body:not(.dark-mode) .info-item div h4 {
+  color: #1f2937;
+}
+
+body:not(.dark-mode) .social-icons a {
+  background: rgba(30, 64, 175, 0.1);
+  border: 1px solid rgba(30, 64, 175, 0.3);
+  color: #1e40af;
+}
+
+body:not(.dark-mode) .social-icons a:hover {
+  background: rgba(30, 64, 175, 0.2);
+  border-color: rgba(30, 64, 175, 0.6);
+  color: #1e3a8a;
+}
+
+body:not(.dark-mode) .contact-form input,
+body:not(.dark-mode) .contact-form textarea {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.8);
+}
+
+body:not(.dark-mode) .contact-form input:focus,
+body:not(.dark-mode) .contact-form textarea:focus {
+  border-color: #1e40af;
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+body:not(.dark-mode) .contact-form input::placeholder,
+body:not(.dark-mode) .contact-form textarea::placeholder {
+  color: #64748b;
+}
+
+body:not(.dark-mode) .scroll-top {
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  border: 1px solid rgba(30, 64, 175, 0.3);
+}
+
+body:not(.dark-mode) .scroll-top:hover {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+}
